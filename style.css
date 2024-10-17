@@ -1,0 +1,84 @@
+h2, h3 {
+    display: flex;
+    
+    font-family: young serif, sans-serif;
+    color: hsl(14, 45%, 36%);
+    padding-left: 25px;
+}
+
+body {
+    font-family: outfit, sans-serif;
+    
+}
+
+.page-container {
+    padding: 25px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container-prep {   
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.paragraph {
+    padding-left: 25px;
+}
+li {
+    margin: 10px 0;
+}
+
+ol {
+    margin: 10px 0;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nutrition-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    padding: 50px;
+}
+
+.grid-item {
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.grid-item2 {
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.line-break {
+    border: none;
+    height: 2px;
+    background-color: hsl(30, 18%, 87%);
+    
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+
+}
