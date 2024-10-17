@@ -54,8 +54,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-How to duplicate a line of code (shft + option + down )
-HTML list generators
+- How to duplicate a line of code (shft + option + down )
+- HTML list generators
+- How to target the numbers in an ordered list - ol li::marker
+- How to add lines to a row in a grid - border-bottom
 
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
